@@ -6,4 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     name: Create Fosstars report
     steps:
-    - uses: ./.github/actions/fosstars-create-single-report
+      - uses: actions/checkout@v2.3.4
+      - uses: ./.github/actions/fosstars-create-single-report
