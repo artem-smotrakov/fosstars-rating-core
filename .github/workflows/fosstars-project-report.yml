@@ -1,0 +1,9 @@
+name: "Create Fosstars report"
+on: [push]
+
+jobs:
+  create_fosstars_report:
+    runs-on: ubuntu-latest
+    name: Create Fosstars report
+    steps:
+    - uses: ./.github/actions/fosstars-create-single-report
