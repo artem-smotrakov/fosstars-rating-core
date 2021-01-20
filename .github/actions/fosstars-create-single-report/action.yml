@@ -1,10 +1,6 @@
 name: "Create a report for a project"
 description: "The action calculates a security rating for a project and stores it to a branch."
 inputs:
-  project-scm-url:
-    description: "An URL to the project's SCM"
-    required: true
-    default: ${{ github.server_url }}/${{ github.repository }}
   report-branch:
     description: "A branch where the report is stored"
     required: true
@@ -13,5 +9,4 @@ runs:
   using: "docker"
   image: "Dockerfile"
   args:
-    - ${{ inputs.project-scm-url }}
     - ${{ inputs.report-branch }}
