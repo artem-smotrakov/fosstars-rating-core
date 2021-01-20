@@ -1,5 +1,5 @@
 WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
-Downloading files at Wed Jan 20 14:48:52 UTC 2021
+Downloading files at Wed Jan 20 15:10:11 UTC 2021
 Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.meta
 Download succeeded nvdcve-1.1-modified.meta
 Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz
