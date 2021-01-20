@@ -1,0 +1,107 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+Downloading files at Wed Jan 20 14:44:33 UTC 2021
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.meta
+Download succeeded nvdcve-1.1-modified.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz
+Download succeeded nvdcve-1.1-modified.json.gz
+Uncompressed nvdcve-1.1-modified.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2002.meta
+Download succeeded nvdcve-1.1-2002.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2002.json.gz
+Download succeeded nvdcve-1.1-2002.json.gz
+Uncompressed nvdcve-1.1-2002.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2003.meta
+Download succeeded nvdcve-1.1-2003.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2003.json.gz
+Download succeeded nvdcve-1.1-2003.json.gz
+Uncompressed nvdcve-1.1-2003.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2004.meta
+Download succeeded nvdcve-1.1-2004.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2004.json.gz
+Download succeeded nvdcve-1.1-2004.json.gz
+Uncompressed nvdcve-1.1-2004.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2005.meta
+Download succeeded nvdcve-1.1-2005.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2005.json.gz
+Download succeeded nvdcve-1.1-2005.json.gz
+Uncompressed nvdcve-1.1-2005.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2006.meta
+Download succeeded nvdcve-1.1-2006.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2006.json.gz
+Download succeeded nvdcve-1.1-2006.json.gz
+Uncompressed nvdcve-1.1-2006.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2007.meta
+Download succeeded nvdcve-1.1-2007.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2007.json.gz
+Download succeeded nvdcve-1.1-2007.json.gz
+Uncompressed nvdcve-1.1-2007.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2008.meta
+Download succeeded nvdcve-1.1-2008.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2008.json.gz
+Download succeeded nvdcve-1.1-2008.json.gz
+Uncompressed nvdcve-1.1-2008.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2009.meta
+Download succeeded nvdcve-1.1-2009.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2009.json.gz
+Download succeeded nvdcve-1.1-2009.json.gz
+Uncompressed nvdcve-1.1-2009.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2010.meta
+Download succeeded nvdcve-1.1-2010.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2010.json.gz
+Download succeeded nvdcve-1.1-2010.json.gz
+Uncompressed nvdcve-1.1-2010.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2011.meta
+Download succeeded nvdcve-1.1-2011.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2011.json.gz
+Download succeeded nvdcve-1.1-2011.json.gz
+Uncompressed nvdcve-1.1-2011.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2012.meta
+Download succeeded nvdcve-1.1-2012.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2012.json.gz
+Download succeeded nvdcve-1.1-2012.json.gz
+Uncompressed nvdcve-1.1-2012.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2013.meta
+Download succeeded nvdcve-1.1-2013.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2013.json.gz
+Download succeeded nvdcve-1.1-2013.json.gz
+Uncompressed nvdcve-1.1-2013.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2014.meta
+Download succeeded nvdcve-1.1-2014.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2014.json.gz
+Download succeeded nvdcve-1.1-2014.json.gz
+Uncompressed nvdcve-1.1-2014.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2015.meta
+Download succeeded nvdcve-1.1-2015.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2015.json.gz
+Download succeeded nvdcve-1.1-2015.json.gz
+Uncompressed nvdcve-1.1-2015.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2016.meta
+Download succeeded nvdcve-1.1-2016.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2016.json.gz
+Download succeeded nvdcve-1.1-2016.json.gz
+Uncompressed nvdcve-1.1-2016.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2017.meta
+Download succeeded nvdcve-1.1-2017.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2017.json.gz
+Download succeeded nvdcve-1.1-2017.json.gz
+Uncompressed nvdcve-1.1-2017.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2018.meta
+Download succeeded nvdcve-1.1-2018.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2018.json.gz
+Download succeeded nvdcve-1.1-2018.json.gz
+Uncompressed nvdcve-1.1-2018.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2019.meta
+Download succeeded nvdcve-1.1-2019.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2019.json.gz
+Download succeeded nvdcve-1.1-2019.json.gz
+Uncompressed nvdcve-1.1-2019.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2020.meta
+Download succeeded nvdcve-1.1-2020.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2020.json.gz
+Download succeeded nvdcve-1.1-2020.json.gz
+Uncompressed nvdcve-1.1-2020.json
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2021.meta
+Download succeeded nvdcve-1.1-2021.meta
+Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2021.json.gz
+Download succeeded nvdcve-1.1-2021.json.gz
+Uncompressed nvdcve-1.1-2021.json
