@@ -1,5 +1,5 @@
 WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
-Downloading files at Wed Jan 20 14:44:33 UTC 2021
+Downloading files at Wed Jan 20 14:48:52 UTC 2021
 Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.meta
 Download succeeded nvdcve-1.1-modified.meta
 Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz
@@ -105,3 +105,6 @@ Download succeeded nvdcve-1.1-2021.meta
 Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2021.json.gz
 Download succeeded nvdcve-1.1-2021.json.gz
 Uncompressed nvdcve-1.1-2021.json
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
