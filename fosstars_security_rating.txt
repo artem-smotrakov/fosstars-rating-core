@@ -1,7 +1,7 @@
 [+] Okay, we have a GitHub token, let's try to use it
 [!] Something went wrong: {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
 [+] Now, let's try to use GitHub settings from environment variables
-Downloading files at Wed Jan 20 16:51:01 UTC 2021
+Downloading files at Wed Jan 20 16:53:55 UTC 2021
 Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.meta
 Download succeeded nvdcve-1.1-modified.meta
 Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz
