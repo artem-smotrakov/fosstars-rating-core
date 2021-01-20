@@ -1,5 +1,7 @@
-WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
-Downloading files at Wed Jan 20 15:10:11 UTC 2021
+[+] Okay, we have a GitHub token, let's try to use it
+[!] Something went wrong: {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}
+[+] Now, let's try to use GitHub settings from environment variables
+Downloading files at Wed Jan 20 16:51:01 UTC 2021
 Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.meta
 Download succeeded nvdcve-1.1-modified.meta
 Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.gz
@@ -105,6 +107,290 @@ Download succeeded nvdcve-1.1-2021.meta
 Downloading https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2021.json.gz
 Download succeeded nvdcve-1.1-2021.json.gz
 Uncompressed nvdcve-1.1-2021.json
+[+] Let's gather info and calculate a security rating for:
+[+]   https://github.com/artem-smotrakov/fosstars-rating-core
+[+] Counting how many commits have been done in the last three months ...
+[+] Cloning https://github.com/artem-smotrakov/fosstars-rating-core ...
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[+] Counting how many people contributed to the project in the last three months ...
+[+] Counting how many stars the project has ...
+[+] Counting how many watchers the project has ...
+[+] Figuring out if the project has a security team ...
+[+] Figuring out if the project is supported by a company ...
+[+] Figuring out if the project has a security policy ...
+[+] Figuring out if the project has a bug bounty program ...
+[+] Looking for vulnerabilities in the project ...
+[+] Figuring out if the project has any unpatched vulnerability ...
+[+] Looking for vulnerabilities in NVD ...
+[+] Figuring out if the project belongs to the Apache Software Foundation ...
+[+] Figuring out if the project belongs to the Eclipse Software Foundation ...
+[+] Figuring out how the project uses CodeQL ...
+[+] Figuring out how the project uses LGTM ...
+[+] Figuring out if the project uses signed commits ...
+[+] Checking if the project uses Dependabot ...
+[+] Looking for programming languages that are used in the project...
+[+] Looking for package managers ...
+[+] Looking for programming languages that are used in the project...
+[+] Figuring out if the project uses nohttp ...
+[+] Figuring out if the project uses GitHub for development ...
+[+] Figuring out if the project uses OWASP Dependency Check ...
+[+] Figuring out if the project uses sanitizers ...
+[+] Figuring out if the project uses FindSecBugs ...
+[+] Figuring out if the project is fuzzed in OSS-Fuzz ...
+[+] Cloning https://github.com/google/oss-fuzz ...
+[+] Figuring out if the project signs jar files ...
+[+] Figuring out if the project uses OWASP security libraries ...
+[+] Here is what we know about the project:
+[+]    A CVSS threshold for OWASP Dependency Check to fail the build: Not specified
+[+]    A set of package managers: MAVEN
+[+]    A set of programming languages: JAVA, PYTHON, OTHER
+[+]    How OWASP Dependency Check is used: NOT_USED
+[+]    If a project has a bug bounty program: No
+[+]    If a project runs CodeQL checks for commits: No
+[+]    If a project runs CodeQL scans: No
+[+]    If a project signs artifacts: Yes
+[+]    If a project uses Dependabot: Yes
+[+]    If a project uses GitHub as the main development platform: Yes
+[+]    If a project uses LGTM checks for commits: No
+[+]    If a project uses OWASP Enterprise Security API (ESAPI): No
+[+]    If a project uses OWASP Java Encoder: No
+[+]    If a project uses OWASP Java HTML Sanitizer: No
+[+]    If a project uses nohttp tool: No
+[+]    If a project uses signed commits: No
+[+]    If an open-source project belongs to Apache Foundation: No
+[+]    If an open-source project belongs to Eclipse Foundation: No
+[+]    If an open-source project has a security policy: Yes
+[+]    If an open-source project has a security team: No
+[+]    If an open-source project is included to OSS-Fuzz project: No
+[+]    If an open-source project is supported by a company: No
+[+]    If an open-source project uses AddressSanitizer: No
+[+]    If an open-source project uses FindSecBugs: No
+[+]    If an open-source project uses MemorySanitizer: No
+[+]    If an open-source project uses UndefinedBehaviorSanitizer: No
+[+]    Info about vulnerabilities in open-source project: 0 vulnerabilities
+[+]    Number of commits in the last three months: 95
+[+]    Number of contributors in the last three months: 2
+[+]    Number of stars for a GitHub repository: 0
+[+]    Number of watchers for a GitHub repository: 0
+[+]    The worst LGTM grade of a project: Unknown
+[+] Here is how the rating was calculated:
+[+]   Score:........Security of project
+[+]   Value:........4.45 out of 10.0
+[+]   Confidence:...High (9.88 out of 10.0)
+[+]   Based on:.....7 sub-scores
+[+]       Sub-score:....Security testing
+[+]       Importance:...High (weight 1.0  out of  1.0)
+[+]       Value:........4.0  out of 10.0
+[+]       Confidence:...High (9.56 out of 10.0)
+[+]       Based on:.....5 sub-scores
+[+]           Sub-score:....Dependency testing
+[+]           Importance:...High (weight 1.0  out of  1.0)
+[+]           Value:........10.0 out of 10.0
+[+]           Confidence:...Max (10.0 out of 10.0)
+[+]           Based on:.....2 sub-scores
+[+]               Sub-score:....Dependabot score
+[+]               Importance:...High (weight 1.0  out of  1.0)
+[+]               Value:........10.0 out of 10.0
+[+]               Confidence:...Max (10.0 out of 10.0)
+[+]               Based on:...4 features
+[+]                   A set of package managers:..............................MAVEN
+[+]                   A set of programming languages:.........................JAVA, PYTHON, OTHER
+[+]                   Does it use Dependabot?.................................Yes
+[+]                   Does it use GitHub as the main development platform?....Yes
+[+] 
+[+]               Sub-score:....OWASP Dependency Check score
+[+]               Importance:...High (weight 1.0  out of  1.0)
+[+]               Value:........0.0  out of 10.0
+[+]               Confidence:...Max (10.0 out of 10.0)
+[+]               Based on:...2 features
+[+]                   How is OWASP Dependency Check used?..................Not used
+[+]                   What is the threshold for OWASP Dependency Check?....Not specified
+[+] 
+[+]           Sub-score:....Static analysis
+[+]           Importance:...High (weight 1.0  out of  1.0)
+[+]           Value:........0.0  out of 10.0
+[+]           Confidence:...Low (8.0  out of 10.0)
+[+]           Based on:.....3 sub-scores
+[+]               Sub-score:....LGTM score
+[+]               Importance:...High (weight 1.0  out of  1.0)
+[+]               Value:........0.0  out of 10.0
+[+]               Confidence:...Low (5.0  out of 10.0)
+[+]               Based on:...2 features
+[+]                   A set of programming languages:........JAVA, PYTHON, OTHER
+[+]                   The worst LGTM grade of the project:...unknown
+[+] 
+[+]               Sub-score:....How a project uses CodeQL
+[+]               Importance:...High (weight 1.0  out of  1.0)
+[+]               Value:........0.0  out of 10.0
+[+]               Confidence:...Max (10.0 out of 10.0)
+[+]               Based on:...4 features
+[+]                   A set of programming languages:................JAVA, PYTHON, OTHER
+[+]                   Does it use LGTM checks?.......................No
+[+]                   If a project runs CodeQL checks for commits:...No
+[+]                   If a project runs CodeQL scans:................No
+[+] 
+[+]               Sub-score:....FindSecBugs score
+[+]               Importance:...Medium (weight 0.5  out of  1.0)
+[+]               Value:........0.0  out of 10.0
+[+]               Confidence:...Max (10.0 out of 10.0)
+[+]               Based on:...2 features
+[+]                   A set of programming languages:...JAVA, PYTHON, OTHER
+[+]                   Does it use FindSecBugs?..........No
+[+] 
+[+]           Sub-score:....Fuzzing
+[+]           Importance:...High (weight 1.0  out of  1.0)
+[+]           Value:........N/A  
+[+]           Confidence:...Max (10.0 out of 10.0)
+[+]           Based on:...2 features
+[+]               A set of programming languages:...JAVA, PYTHON, OTHER
+[+]               Is it included to OSS-Fuzz?.......No
+[+] 
+[+]           Sub-score:....Memory-safety testing
+[+]           Importance:...High (weight 1.0  out of  1.0)
+[+]           Value:........N/A  
+[+]           Confidence:...Max (10.0 out of 10.0)
+[+]           Based on:...4 features
+[+]               A set of programming languages:............JAVA, PYTHON, OTHER
+[+]               Does it use AddressSanitizer?..............No
+[+]               Does it use MemorySanitizer?...............No
+[+]               Does it use UndefinedBehaviorSanitizer?....No
+[+] 
+[+]           Sub-score:....nohttp tool
+[+]           Importance:...Medium (weight 0.5  out of  1.0)
+[+]           Value:........0.0  out of 10.0
+[+]           Confidence:...Max (10.0 out of 10.0)
+[+]           Based on:...2 features
+[+]               A set of package managers:...MAVEN
+[+]               Does it use nohttp?..........No
+[+] 
+[+]       Sub-score:....Security awareness
+[+]       Description:..The score shows how a project is aware of
+[+]                     security. If the project has a security policy,
+[+]                     then the score adds 2.00. If the project has a
+[+]                     security team, then the score adds 3.00. If the
+[+]                     project uses verified signed commits, then the
+[+]                     score adds 0.50. If the project has a bug bounty
+[+]                     program, then the score adds 4.00. If the project
+[+]                     signs its artifacts, then the score adds 0.50. If
+[+]                     the project uses a security tool or library, then
+[+]                     the score adds 1.00.
+[+]       Importance:...High (weight 0.9  out of  1.0)
+[+]       Value:........3.5  out of 10.0
+[+]       Confidence:...Max (10.0 out of 10.0)
+[+]       Based on:...17 features
+[+]           Does it have a bug bounty program?.........No
+[+]           Does it have a security policy?............Yes
+[+]           Does it have a security team?..............No
+[+]           Does it sign artifacts?....................Yes
+[+]           Does it use AddressSanitizer?..............No
+[+]           Does it use Dependabot?....................Yes
+[+]           Does it use FindSecBugs?...................No
+[+]           Does it use LGTM checks?...................No
+[+]           Does it use MemorySanitizer?...............No
+[+]           Does it use OWASP ESAPI?...................No
+[+]           Does it use OWASP Java Encoder?............No
+[+]           Does it use OWASP Java HTML Sanitizer?.....No
+[+]           Does it use UndefinedBehaviorSanitizer?....No
+[+]           Does it use nohttp?........................No
+[+]           Does it use verified signed commits?.......No
+[+]           How is OWASP Dependency Check used?........Not used
+[+]           Is it included to OSS-Fuzz?................No
+[+] 
+[+]       Sub-score:....Unpatched vulnerabilities
+[+]       Importance:...High (weight 0.8  out of  1.0)
+[+]       Value:........10.0 out of 10.0
+[+]       Confidence:...Max (10.0 out of 10.0)
+[+]       Based on:...1 features
+[+]           Info about vulnerabilities:...0 vulnerabilities
+[+]       Explanation:..No unpatched vulnerabilities found which is good
+[+] 
+[+]       Sub-score:....Vulnerability discovery and security testing
+[+]       Description:..The scores checks how security testing is done and
+[+]                     how many vulnerabilities were recently discovered.
+[+]                     If testing is good, and there are no recent
+[+]                     vulnerabilities, then the score value is max. If
+[+]                     there are vulnerabilities, then the score value is
+[+]                     high. If testing is bad, and there are no recent
+[+]                     vulnerabilities, then the score value is low. If
+[+]                     there are vulnerabilities, then the score is min.
+[+]       Importance:...Medium (weight 0.6  out of  1.0)
+[+]       Value:........2.0  out of 10.0
+[+]       Confidence:...High (9.78 out of 10.0)
+[+]       Based on:.....1 sub-scores
+[+]           Sub-score:....Security testing
+[+]           Importance:...High (weight 1.0  out of  1.0)
+[+]           Value:........4.0  out of 10.0
+[+]           Confidence:...High (9.56 out of 10.0)
+[+]       Based on:...1 features
+[+]           Info about vulnerabilities:...0 vulnerabilities
+[+] 
+[+]       Sub-score:....Community commitment
+[+]       Importance:...Medium (weight 0.5  out of  1.0)
+[+]       Value:........0.0  out of 10.0
+[+]       Confidence:...Max (10.0 out of 10.0)
+[+]       Based on:...3 features
+[+]           Does it belong to Apache?........No
+[+]           Does it belong to Eclipse?.......No
+[+]           Is it supported by a company?....No
+[+] 
+[+]       Sub-score:....Project activity
+[+]       Description:..The score evaluates how active a project is. It's
+[+]                     based on number of commits and contributors in the
+[+]                     last 3 months.
+[+]       Importance:...Medium (weight 0.5  out of  1.0)
+[+]       Value:........10.0 out of 10.0
+[+]       Confidence:...Max (10.0 out of 10.0)
+[+]       Based on:...2 features
+[+]           Number of commits in the last three months:........95
+[+]           Number of contributors in the last three months:...2
+[+]       Explanation:..95 commits in the last 3 months results to 10.00 points
+[+]                     2 contributors increase the score value from 10.00 to 10.50
+[+] 
+[+]       Sub-score:....Project popularity
+[+]       Description:..The score is based on number of stars and
+[+]                     watchers.
+[+]                     Here is how a number of stars
+[+]                     contributes to the score:
+[+]                     0 -> 0.00 (min), 2500 ->
+[+]                     2.50, 5000 -> 5.00, 10000 -> 10.00 (max)
+[+]                     Here is
+[+]                     how a number of watchers contributes to the
+[+]                     score:
+[+]                     0 -> 0.00 (min), 450 -> 1.50, 750 -> 2.50,
+[+]                     3000 -> 10.00 (max)
+[+]       Importance:...Medium (weight 0.5  out of  1.0)
+[+]       Value:........0.0  out of 10.0
+[+]       Confidence:...Max (10.0 out of 10.0)
+[+]       Based on:...2 features
+[+]           Number of stars for a GitHub repository:......0
+[+]           Number of watchers for a GitHub repository:...0
+[+] 
+[+] Rating:     4.45 out of 10.0 -> MODERATE
+[+] Confidence: High (9.88 out of 10.0)
+[+] 
+[+] Here is how the rating may be improved:
+[+] 1. You can ask the project maintainers to enable LGTM
+[+]    checks for pull requests in the project.
+[+]    More info:
+[+]    1. How to enable LGTM checks for pull requests:
+[+]       https://lgtm.com/help/lgtm/about-automated-code-review
+[+] 2. You can open a pull request to enable CodeQL scans
+[+]    in the project. Make sure that the scans are run
+[+]    on pull requests.
+[+]    More info:
+[+]    1. How to enable CodeQL checks for pull requests:
+[+]       https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/enabling-code-scanning-for-a-repository#enabling-code-scanning-using-actions
+[+] 3. You can open a pull request to enable CodeQL scans
+[+]    in the project.
+[+]    More info:
+[+]    1. How to enable CodeQL checks:
+[+]       https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/enabling-code-scanning-for-a-repository#enabling-code-scanning-using-actions
+[+] 4. You can open a pull request to enable FindSecBugs
+[+]    for the project.
+[+]    More info:
+[+]    1. FindSecBugs home page:
+[+]       https://find-sec-bugs.github.io/
+[+] 
+[+] Bye!
