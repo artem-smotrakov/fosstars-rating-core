@@ -21,11 +21,12 @@ if [ $? -ne 0 ]; then
 fi
 
 # Generate a report
-echo "Here will be a report" > README.md
+java -jar fosstars-rating-core/target/fosstars-github-rating-calc.jar \
+          --url $$PROJECT_SCM_URL --verbose --token ${GITHUB_TOKEN} > fosstars_security_rating.txt
 
 # Commit the report
 git config --global user.name "Fosstars"
 git config --global user.email "fosstars@users.noreply.github.com"
 git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY
-git commit -am "Update Fosstars report"
+git commit -m "Update Fosstars report" fosstars_security_rating.txt
 git push origin $REPORT_BRANCH
