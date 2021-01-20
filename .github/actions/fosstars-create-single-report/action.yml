@@ -14,4 +14,3 @@ runs:
   args:
     - ${{ inputs.project-scm-url }}
     - ${{ inputs.report-branch }}
-    - ${{ secrets.GITHUB_TOKEN }}
