@@ -4,10 +4,11 @@ inputs:
   project-scm-url:
     description: "An URL to the project's SCM"
     required: true
-    default: "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY"
+    default: ${{ github.server_url }}/${{ github.repository }}
   report-branch:
     description: "A branch where the report is stored"
     required: true
+    default: fosstars
 runs:
   using: "docker"
   image: "Dockerfile"
