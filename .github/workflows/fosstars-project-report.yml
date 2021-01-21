@@ -1,5 +1,10 @@
 name: "Create Fosstars report"
-on: [push]
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   create_fosstars_report:
