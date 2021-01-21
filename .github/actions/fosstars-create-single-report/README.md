@@ -27,12 +27,15 @@ and for committing the report and badge to the specified branch.
 
 ## How to use it
 
-Here is an example workflow that updates the report every day.
+Here is an example workflow that updates the report every day, or when a commit is pushed.
 The report is stored to the `fosstars-report` branch.
 
 ```
 name: "Calculate Fosstars security rating"
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 0 * * *"
 
@@ -44,8 +47,8 @@ jobs:
       - uses: actions/checkout@v2.3.4
       - uses: ./.github/actions/fosstars-create-single-report
         with:
-          report-branch: "fosstars-report"
-          token: "${{ secrets.GITHUB_TOKEN }}"
+          report-branch: fosstars-report
+          token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 The badge will be stored to the same branch. It can then be used in README file:
