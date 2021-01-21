@@ -31,7 +31,7 @@ Here is an example workflow that updates the report every day, or when a commit 
 The report is stored to the `fosstars-report` branch.
 
 ```
-name: "Calculate Fosstars security rating"
+name: "Fosstars"
 on:
   push:
     branches:
@@ -42,7 +42,7 @@ on:
 jobs:
   create_fosstars_report:
     runs-on: ubuntu-latest
-    name: Calculate Fosstars security rating
+    name: "Security rating"
     steps:
       - uses: actions/checkout@v2.3.4
       - uses: ./.github/actions/fosstars-create-single-report
@@ -56,3 +56,10 @@ The badge will be stored to the same branch. It can then be used in README file:
 ```
 [![Fosstars security rating](https://raw.githubusercontent.com/your-organisation/your-project/fosstars-report/fosstars-security-rating.svg)](https://github.com/your-organisation/your-project/blob/fosstars-report/fosstars_security_rating.md)
 ```
+
+## Links
+
+1.  [Fosstars home page](https://github.com/SAP/fosstars-rating-core)
+1.  [Fosstars documentation](https://sap.github.io/fosstars-rating-core/)
+1.  [Open source security rating](https://sap.github.io/fosstars-rating-core/oss_security_rating.html)
+1.  [Security ratings for well-known open source projects](https://sap.github.io/fosstars-rating-core/oss/security/)
