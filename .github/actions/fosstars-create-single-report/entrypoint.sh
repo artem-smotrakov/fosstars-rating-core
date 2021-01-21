@@ -43,6 +43,6 @@ set -e
 git config --global user.name "Fosstars"
 git config --global user.email "fosstars@users.noreply.github.com"
 git remote set-url origin https://x-access-token:$TOKEN@github.com/$GITHUB_REPOSITORY
-git add $report_file $current_badge_file
-git commit -m "Update Fosstars security rating report" $report_file $current_badge_file
+git add $report_file $current_badge_file $raw_rating_file
+git commit -m "Update Fosstars security rating report" $report_file $current_badge_file $raw_rating_file
 git push origin $REPORT_BRANCH
