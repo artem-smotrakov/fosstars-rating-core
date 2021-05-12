@@ -898,7 +898,7 @@
           "type" : "PositiveIntegerFeature",
           "name" : "Number of commits in the last three months"
         },
-        "number" : 147
+        "number" : 148
       }, {
         "type" : "IntegerValue",
         "feature" : {
@@ -907,7 +907,7 @@
         },
         "number" : 2
       } ],
-      "explanation" : [ "147 commits in the last 3 months results to 10.00 points", "2 contributors increase the score value from 10.00 to 10.50" ],
+      "explanation" : [ "148 commits in the last 3 months results to 10.00 points", "2 contributors increase the score value from 10.00 to 10.50" ],
       "isUnknown" : false,
       "isNotApplicable" : false
     }, {
