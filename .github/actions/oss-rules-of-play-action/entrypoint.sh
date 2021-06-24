@@ -41,7 +41,7 @@ fi
 export MAVEN_OPTS=-Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn
 
 # Build Fosstars
-git clone https://github.com/SAP/fosstars-rating-core && \
+git clone https://github.com/artem-smotrakov/fosstars-rating-core && \
     cd fosstars-rating-core && \
     git checkout $FOSSTARS_VERSION && \
     mvn package -ntp -DskipTests -Dcheckstyle.skip -Dmaven.javadoc.skip && \
