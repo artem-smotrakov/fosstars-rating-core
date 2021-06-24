@@ -3,5 +3,8 @@ reports:
   - type: markdown
     where: ./
 finder:
-  organizations:
-    - name: SAP
+  repositories:
+    - organization: artem-smotrakov
+      name: test-rop-one
+    - organization: artem-smotrakov
+      name: test-rop-two
