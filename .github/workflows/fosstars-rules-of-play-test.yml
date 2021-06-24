@@ -5,11 +5,11 @@ on:
       fosstars-version:
         description: "Fosstars version or branch name"
         required: true
-        default: "master"
+        default: "better-creating-issues"
       report-branch:
         description: "A branch where the report should be stored"
         required: true
-        default: "fosstars-oss-rules-of-play-sap-report"
+        default: "fosstars-oss-rules-of-play-test-report"
 
 jobs:
   create_fosstars_report:
@@ -21,4 +21,4 @@ jobs:
         with:
           fosstars-version: ${{ github.event.inputs.fosstars-version }}
           report-branch: ${{ github.event.inputs.report-branch }}
-          token: "${{ secrets.OSPO_BOT_GITHUB_TOKEN }}"
+          token: "${{ secrets.ROP_TEST_TOKEN }}"
