@@ -29,13 +29,11 @@
 
 ## Passed rules
 
-1.  **[rl-contributor_file-1]** Does it have a contributing guideline? **No**
-1.  **[rl-contributor_file-2]** Does the contributing guideline have required text? **No**
 1.  **[rl-license_file-1]** Does it have a license file? **Yes**
 1.  **[rl-license_file-2]** Does it use an allowed license? **Yes**
 1.  **[rl-license_file-3]** Does the license have disallowed content? **No**
 1.  **[rl-readme_file-1]** Does it have a README file? **Yes**
-1.  **[rl-readme_file-2]** If a project's README doesn't contain required info **No**
+1.  **[rl-readme_file-2]** Is README incomplete? **No**
 1.  **[rl-vulnerability_alerts-2]** Does it have unresolved vulnerability alerts? **No**
 
 
@@ -50,6 +48,7 @@
     More info:
     1.  [About adding a security policy to a repository on GitHub](https://docs.github.com/en/free-pro-team@latest/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository)
     2.  [An example of a security policy](https://github.com/apache/nifi/blob/main/SECURITY.md)
+    3.  [Suggest a security policy for the project](https://github.com/artem-smotrakov/test-rop-one/security/policy)
 5.  No contributing guideline file could be found in your repository. Though it's only a recommendation, we'd like to encourage you to add some information that can be detected by GitHub.
     More info:
     1.  [Setting guidelines for repository contributors](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors#adding-a-contributing-file)
