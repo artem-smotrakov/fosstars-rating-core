@@ -37,17 +37,20 @@
 
 ### rl-vulnerability_alerts-1
 
+Vulnerability alerts are not enabled in the project
 Vulnerability alerts are disabled for your repository. An administrator should enable these alerts via Settings. Please see the GitHub documentation for details or contact the OSPO for more information.
 *  [Managing vulnerabilities in your project's dependencies](https://docs.github.com/en/code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies)
 
 
 ### rl-reuse_tool-2
 
+The project does not have LICENSES directory
 REUSE tool compliance requires that all used licenses are provided in a LICENSES folder on root level.
 
 
 ### rl-security_policy-1
 
+Neither the project nor organization has a security policy
 Open a pull request to add a security policy for the project.
 *  [About adding a security policy to a repository on GitHub](https://docs.github.com/en/free-pro-team@latest/github/managing-security-vulnerabilities/adding-a-security-policy-to-your-repository)
 *  [An example of a security policy](https://github.com/apache/nifi/blob/main/SECURITY.md)
@@ -62,17 +65,20 @@ A license file was detected, but it doesn't seem to be approved by SAP. Under no
 
 ### rl-reuse_tool-1
 
+The README does not seem to have a badge that points to REUSE status (https://api.reuse.software/info/github.com/artem-smotrakov/test-rop-two)
 The README of your projects needs to include a link to the results of the REUSE tool scan as well as a licensing section.
 
 
 ### rl-reuse_tool-3
 
+The project is not registered in REUSE
 A registration for the repository could not be found. Please verify that the repository is registered properly.
 *  [Register a project in REUSE](https://api.reuse.software/register)
 
 
 ### rl-reuse_tool-4
 
+The project is not registered in REUSE
 The latest REUSE tool compliance check resulted in errors. Please perform the check again on your repository and fix the issues.
 
 
